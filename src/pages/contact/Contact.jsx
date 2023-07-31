@@ -3,7 +3,7 @@ import { Card, Row, Col, Container, Button } from "react-bootstrap";
 
 function Contact() {
   return (
-    <div className="text-center" style={{height: "86vh"}}>
+    <div className="text-center" style={{ height: "86vh" }}>
       <h1 className=" p-5">Contact Us</h1>
       <Container style={{ "max-width": "60%" }}>
         <Row>
@@ -17,7 +17,7 @@ function Contact() {
                   We’ll help you find the right products and pricing for your
                   business.
                 </Card.Subtitle>
-                <Button variant="dark">Dark</Button>
+                <Button variant="dark">Here</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -31,7 +31,7 @@ function Contact() {
                   Our help center is fresh and always open for business. we’re
                   here to lend a hand.
                 </Card.Subtitle>
-                <Button variant="dark">Dark</Button>
+                <Button variant="dark">Here</Button>
               </Card.Body>
             </Card>
           </Col>
